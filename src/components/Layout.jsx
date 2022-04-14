@@ -24,7 +24,7 @@ const Layout = (props) => {
 
       {/* Top Navbar  */}
       <div className="row border-bottom">
-        <div className="col-md-8 py-1 py-md-2 me-auto text-center text-md-start">
+        <div className="col-sm-8 py-1 py-md-2 me-auto text-center text-md-start">
           <small>
             <a href="#" className="text-decoration-none me-3 text-success">
               Chat with us
@@ -37,7 +37,7 @@ const Layout = (props) => {
             <span>firmanfi925@gmail.com</span>
           </small>
         </div>
-        <div className="col-md-4 py-1 py-md-2 text-md-end text-center text-md-start">
+        <div className="col-sm-4 py-1 py-md-2 text-md-end text-center text-md-start">
           <small>
             <a href="#" className="text-decoration-none me-3 text-success">
               Blog
@@ -58,10 +58,10 @@ const Layout = (props) => {
 
       {/* Logo & Search */}
       <div className="row mt-4">
-        <div className="col-md-3">
+        <div className="d-none d-md-flex col-md-3">
           <Navbar.Brand className="text-dark" href="#">LeumangShop</Navbar.Brand>
         </div>
-        <div className="col-md-6">
+        <div className="col-9 col-md-6">
           <Form className="d-flex">
             <FormControl
               type="search"
@@ -72,7 +72,7 @@ const Layout = (props) => {
             <Button variant="outline-dark">Search</Button>
           </Form>
         </div>
-        <div className="col-md-3 text-md-end py-2">
+        <div className="col-3 col-md-3 text-end py-2">
           <a href="#" className="me-4">
             <MDBIcon className="text-dark" icon="user-alt" size="lg" />
           </a>

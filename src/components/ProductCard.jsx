@@ -19,11 +19,11 @@ const ProductCard = (props) => {
                   </Link>
                   <p className="card-text">{item.description}</p>
                 </div>
-                <div className="card-body d-flex flex-row align-items-center justify-content-between">
+                <div className="card-body d-md-flex flex-row align-items-center justify-content-between">
                   <div>
-                    <h5 className="card-title">
+                    <h6 className="card-title">
                       <NumberFormat thousandSeparator={"."} decimalSeparator={","} prefix={'Rp '} value={priceAfterDiscount} displayType="text" />
-                    </h5>
+                    </h6>
                     {item.discountPercent > 0 && (<p className="card-text">
                       <small className="text-muted text-decoration-line-through">Rp. {item.originalPrice}</small>
                     </p>)}

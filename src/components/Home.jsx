@@ -25,7 +25,7 @@ const Home = () => {
       {/* Content Utama */}
       <div className="row mt-5">
         {/* Sidebar */}
-        <div className="col-md-3">
+        <div className="col-4 col-sm-3">
           {/* Categories */}
           <div className="row mb-5">
             <div className="col">
@@ -307,8 +307,8 @@ const Home = () => {
                   disabled
                 ></input>
               </div>
-              <div className="d-flex justify-content-between my-3">
-                <button type="button" className="btn btn-success">
+              <div className="d-md-flex flex-row align-items-center justify-content-between text-center my-3">
+                <button type="button" className="btn btn-success mb-2">
                   Apply
                 </button>
                 <button type="button" className="btn btn-secondary">
@@ -320,7 +320,7 @@ const Home = () => {
         </div>
 
         {/* Products Card */}
-        <div className="col-md-9 mt-5 mt-md-0">
+        <div className="col-8 col-sm-9 mt-md-0">
           <div className="row row-cols-auto justify-content-center row-cols-sm-2 row-cols-lg-3 mb-2 g-4">
             {product.map((item, index) => {
               return <ProductCard item={item} key={index} />;

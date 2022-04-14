@@ -48,10 +48,10 @@ const Detail = () => {
                 </span>
               )}
             </div>
-            <div className="d-flex p-2 flex-row justify-content-between align-items-end">
+            <div className="d-sm-flex p-2 flex-row justify-content-between align-items-end">
               <div>
                 <p><small>Jumlah Beli:</small></p>
-              <div className="btn-group">
+              <div className="btn-group mb-2 mb-sm-0 text-center">
                 <button
                   type="button"
                   class="btn btn-secondary"
