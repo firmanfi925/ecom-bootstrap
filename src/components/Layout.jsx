@@ -17,6 +17,8 @@ import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import MainMenu from "./MainMenu";
 import ProductCard from "./ProductCard";
 import products from "../services/data/product";
+import Home from "./Home";
+import { Link } from "react-router-dom";
 
 const Layout = (props) => {
   return (
@@ -59,7 +61,7 @@ const Layout = (props) => {
       {/* Logo & Search */}
       <div className="row mt-4">
         <div className="d-none d-md-flex col-md-3">
-          <Navbar.Brand className="text-dark" href="#">LeumangShop</Navbar.Brand>
+          <Link to="/"><Navbar.Brand className="text-dark" href="#">LeumangShop</Navbar.Brand></Link>
         </div>
         <div className="col-9 col-md-6">
           <Form className="d-flex">
