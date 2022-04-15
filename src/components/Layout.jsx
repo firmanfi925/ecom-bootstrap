@@ -76,10 +76,10 @@ const Layout = (props) => {
         </div>
         <div className="col-3 col-md-3 text-end py-2">
           <a href="#" className="me-4">
-            <MDBIcon className="text-dark" icon="user-alt" size="lg" />
+            <MDBIcon className="text-dark" icon="user-alt" size="md" />
           </a>
           <a href="#" className="me-3">
-            <MDBIcon className="text-dark" icon="shopping-cart" size="lg" />
+            <MDBIcon className="text-dark" icon="shopping-cart" size="md" />
             <MDBBadge color="danger" notification pill>
               4
             </MDBBadge>
