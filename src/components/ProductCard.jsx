@@ -10,8 +10,10 @@ const ProductCard = (props) => {
     <div className="col">
               <div className="card h-100">
                 <MDBRipple rippleColor="light" rippleTag="div" className="bg-image hover-overlay">
+                <Link to={item.name}>
                 <img className="card-img-top p-3" alt="" src={`product/${props.item.image}`} />
                 <div className="mask" style={{ backgroundColor:'rgba(251, 251, 251, 0.15)'}}></div>
+                </Link>
                 </MDBRipple>
                 <div className="card-body">
                   <Link to={item.name}>

@@ -89,7 +89,7 @@ const Layout = (props) => {
 
       {/* Menu Utama */}
       <Navbar expand="md" className="mt-3 bg-success bg-opacity-10">
-      <span className="d-flex ms-2 d-md-none fw-bold">Choose Category</span>
+      <Link to="/"><Navbar.Brand className="d-flex ms-2 d-md-none">LemangShop</Navbar.Brand></Link>
         <Navbar.Toggle aria-controls="navbarScroll">
         <MDBIcon icon="bars" fas />
         </Navbar.Toggle>

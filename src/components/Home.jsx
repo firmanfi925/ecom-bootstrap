@@ -104,27 +104,27 @@ const Home = () => {
                 <label className="form-check-label" for="inputCheck1">
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                 </label>
@@ -138,28 +138,28 @@ const Home = () => {
                 <label className="form-check-label" for="inputCheck2">
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     far
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                 </label>
@@ -173,29 +173,29 @@ const Home = () => {
                 <label className="form-check-label" for="inputCheck3">
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     icon="star"
-                    size="md"
-                    className="text-warning"
-                  ></MDBIcon>
-                  <MDBIcon
-                    far
-                    icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     far
                     icon="star"
-                    size="md"
+                    size="sm"
+                    className="text-warning"
+                  ></MDBIcon>
+                  <MDBIcon
+                    far
+                    icon="star"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                 </label>
@@ -209,30 +209,30 @@ const Home = () => {
                 <label className="form-check-label" for="inputCheck4">
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     icon="star"
-                    size="md"
-                    className="text-warning"
-                  ></MDBIcon>
-                  <MDBIcon
-                    far
-                    icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     far
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     far
                     icon="star"
-                    size="md"
+                    size="sm"
+                    className="text-warning"
+                  ></MDBIcon>
+                  <MDBIcon
+                    far
+                    icon="star"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                 </label>
@@ -246,31 +246,31 @@ const Home = () => {
                 <label className="form-check-label" for="inputCheck5">
                   <MDBIcon
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     far
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     far
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     far
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                   <MDBIcon
                     far
                     icon="star"
-                    size="md"
+                    size="sm"
                     className="text-warning"
                   ></MDBIcon>
                 </label>
