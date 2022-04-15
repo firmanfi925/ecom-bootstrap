@@ -48,35 +48,37 @@ const Detail = () => {
                 </span>
               )}
             </div>
-            <div className="d-sm-flex p-2 flex-row justify-content-between align-items-end">
+            <div className="d-flex flex-row justify-content-between align-items-end">
               <div>
-                <p><small>Jumlah Beli:</small></p>
-              <div className="btn-group mb-2 mb-sm-0 text-center">
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-type="minus"
-                  data-field="quant[2]"
-                >
-                  <MDBIcon icon="minus" size="lg"></MDBIcon>
-                </button>
-                <input
-                  type="text"
-                  name="quant[2]"
-                  class="form-control text-center"
-                  value="5"
-                  min="1"
-                  max="100"
-                />
-                <button
-                  type="button"
-                  class="btn btn-primary"
-                  data-type="plus"
-                  data-field="quant[2]"
-                >
-                  <MDBIcon icon="plus" size="lg"></MDBIcon>
-                </button>
-              </div>
+                <p>
+                  <small>Jumlah Beli:</small>
+                </p>
+                <div className="btn-group w-75">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-type="minus"
+                    data-field="quant[2]"
+                  >
+                    <MDBIcon icon="minus" size="md"></MDBIcon>
+                  </button>
+                  <input
+                    type="text"
+                    name="quant[2]"
+                    class="form-control text-center"
+                    value="5"
+                    min="1"
+                    max="100"
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-primary"
+                    data-type="plus"
+                    data-field="quant[2]"
+                  >
+                    <MDBIcon icon="plus" size="lg"></MDBIcon>
+                  </button>
+                </div>
               </div>
               <button type="button" className="btn btn-success">
                 Beli Sekarang
@@ -84,7 +86,7 @@ const Detail = () => {
             </div>
           </div>
         </div>
-      </div>  
+      </div>
     </Layout>
   );
 };
